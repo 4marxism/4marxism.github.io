@@ -1,0 +1,6 @@
+name: Thinker
+markdown: kramdown
+filter: 'tag'
+# Use gitalk(https://github.com/gitalk/gitalk) comment function.
+# true for use while false vise versa
+use_gitalk: true
