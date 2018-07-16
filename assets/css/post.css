@@ -1,0 +1,16 @@
+/*
+	This CSS configure the style of /_layouts/post.html
+*/
+
+/* Whole post.html font size */
+.post-wrapper p {
+       font-size: 1.2rem;
+}
+
+.post-meta-span {
+    margin-right: .3rem;
+}
+
+.post-meta-span:last-child {
+	margin-right: 0;
+}

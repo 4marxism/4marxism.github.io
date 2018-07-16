@@ -1,12 +1,35 @@
+/*
+    This CSS configure the style of /_layouts/default.html
+*/
+
 body {
 	margin: 60px auto;
 	width: 70%;
+}
+.logo {
+	width: 1.5em;
+	height: 1.5em;
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
 }
 nav ul, footer ul {
 	font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	padding: 0px;
 	list-style: none;
 	font-weight: bold;
+}
+/* nav bar font size */
+nav ul {
+	font-size: 1.5rem;
+}
+nav ul a {
+	font-size: 1.5rem;
+	color: #000;
+}
+nav ul a:hover {
+	color: #fc4d50;
+	text-decoration: none;
 }
 nav ul li, footer ul li {
 	display: inline;
@@ -79,10 +102,6 @@ pre>code {
 	margin-left:auto;
 	padding-right:30px;
 	padding-left:30px
-}
-/* whole post.html font size */
-.post-wrapper {
-	font-size: .8rem;
 }
 @media screen and (max-width: 800px) {
 	.wrapper {

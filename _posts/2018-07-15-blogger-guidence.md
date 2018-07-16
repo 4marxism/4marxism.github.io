@@ -1,11 +1,14 @@
 ---
 layout: post
 title:  "博客写作指南"
-date:   2018-07-15 13:53:12 +0800
+author: xspurs
+date: 2018-07-15 13:53:12
+update_date: 2018-07-16 23:07:12
 categories: jekyll update
+tags: Markdown Jekyll Guidence
 ---
 
-本博客基于[jekyll](https://jekyllrb.com/)，通过[Ruby](https://www.ruby-lang.org/en/)脚本根据模板生成静态网页，实现了内容与排版的分离。生成的静态网页通过[Github Pages](https://pages.github.com/)托管，域名默认为`${Github Username}.github.io`，可通过创建`CNAME`文件绑定自定义域名。
+本博客基于[Jekyll](https://jekyllrb.com/)，通过[Ruby](https://www.ruby-lang.org/en/)脚本根据模板生成静态网页，实现了内容与排版的分离。生成的静态网页通过[Github Pages](https://pages.github.com/)托管，域名默认为`${Github Username}.github.io`，可通过创建`CNAME`文件绑定自定义域名。
 
 ## 规范
 
@@ -21,17 +24,23 @@ categories: jekyll update
 ---
 layout: post
 title:  "博客写作指南"
-date:   2018-07-15 13:53:12 +0800
+author: xspurs
+date:   2018-07-15 13:53:12
+update_date: 2018-07-16 23:07:12
 categories: jekyll update
+tags: Markdown Jekyll Guidence
 ---
 ~~~
 
 元数据指定方式：
 
-1. `layout`值固定为`post`
-2. `title`为本篇博客的标题，会在列表页及内容详情页展示
-3. `date`为本篇博客的完成日期，格式为`yyyy-MM-dd HH:mm:ss Z`(带时区)
-4. `categories`值以空格分隔的方式指定多级目录，与生成后的静态URL相关，如`jekyll update`对应/jekyll/update/
+1. `layout`值固定为`post`  **必填**
+2. `title`为本篇博客的标题，会在列表页及内容详情页展示  **必填**
+3. `author`为本篇博客作者(可使用Github账号)  **必填**
+4. `date`为本篇博客的完成日期，格式为`yyyy-MM-dd HH:mm:ss`  **必填**
+5. `update`为本篇博客的最后修改日期，格式同上
+6. `categories`值以空格分隔的方式指定多级目录，与生成后的静态URL相关，如`jekyll update`对应/jekyll/update/  **必填**
+7. `tags`值为以空格分隔的多个标签，方便后续对文章进行归类(暂未实现)
 
 ### 内容区
 
@@ -49,6 +58,10 @@ MacOS: [Typora](https://www.typora.io/)
 _posts   博客源文件(Markdown格式)
 _layouts 布局格式，对应元数据中指定的layout项
 _site    生成的静态文件(已被gitignore)
+assets   静态文件，包括css、images等
+blog     "博客"(/blog)页面内容，包含博客归档
+about    "关于"(/about)页面内容
+cv       "CV"(/cv)页面内容(暂未使用)
 ~~~
 
 ## 发布
