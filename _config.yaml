@@ -5,4 +5,4 @@ filter: 'tag'
 # true for use while false vise versa
 use_gitalk: true
 # Config encoding
-encoding: 'utf-8'
+encoding: utf-8
