@@ -555,3 +555,8 @@ li.task-list-item {
 	list-style-type: none;
 	margin-left: -1rem;
 }
+/* ![]() image style */
+img {
+	width: 100%;
+	display: block;
+}

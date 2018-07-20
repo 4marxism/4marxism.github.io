@@ -6,3 +6,5 @@ filter: 'tag'
 use_gitalk: true
 # Config encoding
 encoding: utf-8
+# Config timezone
+# timezone: '-0800'

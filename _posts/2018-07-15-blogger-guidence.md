@@ -2,8 +2,8 @@
 layout: post
 title:  "博客写作指南"
 author: xspurs
-date: 2018-07-15 13:53:12
-update_date: 2018-07-16 23:07:12
+date: 2018-07-15 13:53:12 +0800
+update_date: 2018-07-16 23:07:12 +0800
 categories: jekyll update
 tags: Markdown Jekyll Guidence
 ---
@@ -25,8 +25,8 @@ tags: Markdown Jekyll Guidence
 layout: post
 title:  "博客写作指南"
 author: xspurs
-date:   2018-07-15 13:53:12
-update_date: 2018-07-16 23:07:12
+date:   2018-07-15 13:53:12 +0800
+update_date: 2018-07-16 23:07:12 +0800
 categories: jekyll update
 tags: Markdown Jekyll Guidence
 ---
@@ -55,13 +55,14 @@ MacOS: [Typora](https://www.typora.io/)
 本博客采用了较为简单的Jekyll主题，目录结构也很简单，如下所示，只要知道将自己写的Markdown格式的博客文件放置于`_posts`目录下即可。
 
 ~~~
-_posts   博客源文件(Markdown格式)
-_layouts 布局格式，对应元数据中指定的layout项
-_site    生成的静态文件(已被gitignore)
-assets   静态文件，包括css、images等
-blog     "博客"(/blog)页面内容，包含博客归档
-about    "关于"(/about)页面内容
-cv       "CV"(/cv)页面内容(暂未使用)
+_posts     博客源文件(Markdown格式)
+_layouts   布局格式，对应元数据中指定的layout项
+_includes  通用组件，如评论、sidebar等，在layout中可通过include方式引入
+_site      生成的静态文件(已被gitignore)
+assets     静态文件，包括css、images等
+blog       "博客"(/blog)页面内容，包含博客归档
+about      "关于"(/about)页面内容
+cv         "CV"(/cv)页面内容(暂未使用)
 ~~~
 
 ## 发布
