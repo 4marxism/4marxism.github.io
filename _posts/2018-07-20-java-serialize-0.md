@@ -215,6 +215,8 @@ private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundE
 }
 ~~~
 
+[查看完整代码](https://github.com/xspurs/java-basic-skills/tree/master/src/main/java/com/brctl/serial/defensive)
+
 ### 使用序列化代理代替序列化实例
 
 ![Serial Proxy](/assets/post_img/java-serialize-0/serial_proxy.png)
@@ -277,6 +279,8 @@ private void readObject(ObjectInputStream in) throws InvalidObjectException {
     throw new InvalidObjectException("Proxy required");
 }
 ~~~
+
+[查看完整代码](https://github.com/xspurs/java-basic-skills/tree/master/src/main/java/com/brctl/serial/proxy)
 
 通过使用序列化代理类，可以方便编写保护性的readObject方法，避免因序列化、反序列化使用不当造成潜在系统漏洞。
 
