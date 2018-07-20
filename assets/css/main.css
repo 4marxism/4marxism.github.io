@@ -19,28 +19,35 @@ nav ul, footer ul {
 	list-style: none;
 	font-weight: bold;
 }
+/* link */
+a {
+	text-decoration: none;
+    color: #82A6F5;
+	/* color: #666; */
+}
+a:visited {
+	text-decoration: none;
+	color: #82A6F5;
+	/* color: #666; */
+}
+a:hover {
+	color: #fc4d50;
+}
 /* nav bar font size */
-nav ul {
+nav#nav-bar ul {
 	font-size: 1.5rem;
 }
-nav ul a {
+nav#nav-bar ul a {
 	font-size: 1.5rem;
 	color: #000;
 }
-nav ul a:hover {
+nav#nav-bar ul a:hover {
 	color: #fc4d50;
 	text-decoration: none;
 }
-nav ul li, footer ul li {
+nav#nav-bar ul li, footer#footer ul li {
 	display: inline;
 	margin-right: 20px;
-}
-a {
-	text-decoration: none;
-	color: #999;
-}
-a:hover {
-	text-decoration: underline;
 }
 h1 {
 	font-size: 3em;
@@ -54,6 +61,13 @@ p {
 footer {
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
+}
+footer#footer a {
+	color: #999;
+}
+footer#footer a:hover {
+	color: #fc4d50;
+	text-decoration: none;
 }
 
 ul.posts { 
@@ -535,4 +549,9 @@ table td {
 }
 .highlight .il {
 	color:#099
+}
+/* - [] checklist style */
+li.task-list-item {
+	list-style-type: none;
+	margin-left: -1rem;
 }

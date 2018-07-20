@@ -38,24 +38,6 @@ layout: default
 	</div>
 	{% endif %}
 
-	{% if site.use_gitalk %}
-		<!-- Gitalk begin -->
-		<!-- Link Gitalk 的支持文件  -->
-		<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-		<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-		<div id="gitalk-container"></div>
-		<script type="text/javascript">
-			var gitalk = new Gitalk({
-				// gitalk的主要参数
-				clientID: 'ff084d5b44a48714aa3e',
-				clientSecret: '2aee7afd2477c4cd3379d160bd965e278bb0c3b2',
-				repo: '4marxism.github.io',
-				owner: '4marxism',
-				admin: ['xspurs', 'fuckdxx'],
-				id: window.location.pathname,
-			});
-			gitalk.render('gitalk-container');
-		</script> 
-		<!-- Gitalk end -->
-	{% endif %}
+	{% include gitalk.html %}
+
 </div>
