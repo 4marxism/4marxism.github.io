@@ -8,3 +8,7 @@ use_gitalk: true
 encoding: utf-8
 # Config timezone
 # timezone: '-0800'
+# Use amazing counters(http://www.amazingcounters.com) to collect statistics.
+# true for use while false vise versa
+use_amazing_counters: true
+amazing_counters_account_id: 3225548
