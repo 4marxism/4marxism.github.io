@@ -3,14 +3,16 @@ layout: post
 title:  "读书笔记_Week_00"
 author: xspurs
 date: 2018-11-23 23:45:12 +0800
-update_date: 2018-11-23 23:45:12 +0800
+update_date: 2018-11-25 23:14:12 +0800
 categories: jekyll update
 tags: 读书 读书计划 读书笔记
 ---
 
-## 2018-11-23
+## 2018-11-23_Fri
 
 > 《Spark大数据分析_核心概念、技术及实践》
+>
+> [豆瓣链接](https://book.douban.com/subject/27061727/)
 
 ### Chapter_1 大数据技术一览
 
@@ -36,3 +38,14 @@ HDFS将文件分成固定大小的块，默认的块大小为`128M`(可配置)�
 `TODO`:
 
 补充NameNode DataNode之间的交互方式，图
+
+
+## 2018-11-24_Sat
+
+周六下课较晚，洗澡早睡，没有读书。
+
+## 2018-11-25_Sun
+
+1. 技术交流，针对[美团技术博客相关博文](https://tech.meituan.com/hb_rt_operation.html)及CEP等与宜信、国泰君安同学进行微信技术交流。
+2. 大数据技术概论，第1次作业。
+3. 没有读书。
