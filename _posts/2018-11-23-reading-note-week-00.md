@@ -26,7 +26,7 @@ Hadoop Component:
 
 Hadoop由`Doug Cutting`和`Mike Cafarella`在Google三驾马车的其中两篇论文——MapReduce和GFS——的开源实现。
 
-#### HDFS
+##### HDFS
 
 HDFS将文件分成固定大小的块，默认的块大小为`128M`(可配置)。如果可能，HDFS会把一个文件的各个块分布在不同的机器上，从而可以并行进行读写操作。通过对文件块做副本降低机器宕机风险，默认的副本数量为`3`个。
 
