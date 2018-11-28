@@ -3,7 +3,7 @@ layout: post
 title:  "读书笔记_Week_01"
 author: xspurs
 date: 2018-11-26 23:25:12 +0800
-# update_date: 2018-11-25 23:14:12 +0800
+update_date: 2018-11-28 23:15:12 +0800
 categories: jekyll update
 tags: 读书 读书计划 读书笔记
 ---
@@ -57,3 +57,11 @@ SequenceFile有三种不同的格式：
 - 未压缩格式
 - 记录压缩格式：只压缩value
 - 块压缩格式：key与value均压缩
+
+## 2018-11-28_Tue
+
+休息。
+
+## 2018-11-28_Wed
+
+加班工作。
